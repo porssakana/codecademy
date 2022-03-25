@@ -1,0 +1,146 @@
+/* Add responsive design */
+
+h1 {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+h3 {
+    font-family: 'Comfortaa', cursive;
+    text-decoration: underline;
+    font-size: 22px;
+    margin-left: 20px
+}
+
+.colors {
+    border: 2px solid gray;
+    height: 400px;
+    margin: 0px 50px;
+}
+
+.fonts {
+    border: 2px solid gray;
+    height: 500px;
+    margin: 20px 50px 20px 50px;
+}
+
+#serifheader {
+    font-family: 'Roboto Slab', serif;
+}
+
+#sansserifheader {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#scriptheader {
+    font-family: 'Dancing Script', cursive;
+}
+
+#displayheader {
+    font-family: 'Comfortaa', cursive;
+}
+
+/* colors */
+
+#lightblue {
+    background-color: #33E6FF;
+}
+
+#blue {
+    background-color: #339CFF;
+}
+
+#darkblue {
+    background-color: #333FFF;
+    top: 20px;
+}
+
+/* fonts */
+#rs-extralight-200 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200;
+}
+
+#rs-regular-400 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
+
+#rs-bold-700 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+}
+
+#ubuntu-regular-400 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+
+#ubuntu-regular-400-italic {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+#ubuntu-bold-700 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+
+#dance-regular-400 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+}
+
+#dance-medium-500 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+}
+
+#dance-bold-700 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+}
+
+#comfortaa-light-300 {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 300;
+}
+
+#comfortaa-medium-500 {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 500;
+}
+
+#comfortaa-bold-700 {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+}
+
+.colors div {
+    display: inline-block;
+    font-family: 'Ubuntu', sans-serif;
+    width: 300px;
+    font-weight: 200;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.fonts div {
+    font-size: 15px;
+    display: inline-block;
+    width: 385px
+}
+  
+.fonts p {
+    margin-left: 20px;
+}
